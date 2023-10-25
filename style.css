@@ -146,8 +146,6 @@ ul {
     margin: 1px;
     margin-right: 2px;
     margin-bottom: 2px;
-    width: fit-content;
-    height: fit-content;
     max-height: 330px;
 }
 
@@ -200,5 +198,9 @@ ul {
     }
     .block_6 {
         flex-grow: 0;
+    }
+    .picture {
+        flex: 1;
+        max-height: 100%;
     }
 }
