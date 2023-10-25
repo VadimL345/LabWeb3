@@ -158,7 +158,7 @@ ul {
     width: 40%;
     outline: 0;
 }
-@media(max-width: 1024px) {
+@media(max-width: 700px) {
     .block_1-5 {
         flex-direction: column;
         width: 100%;
@@ -200,7 +200,7 @@ ul {
         flex-grow: 0;
     }
     .picture {
-        flex: 1;
+        flex-grow: 1;
         max-height: 100%;
     }
 }
